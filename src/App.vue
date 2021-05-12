@@ -1,17 +1,19 @@
 <template>
-<div id="app">
-  <CommonHeader></CommonHeader>
-      <main>
+  <div id="app">
+    <CommonHeader></CommonHeader>
+    <main>
       <div id="firstview">
-       <p class="catchcopy">機械ではできない仕事を</p>
-         <div class="news flex">
-            <div class="news-content">
-              <p class="news_date">2019/01/01</p>
-               <p class="news_title">ニュースタイトルがここには入ります。3月の決算報告書</p>
+        <p class="catchcopy">機械ではできない仕事を</p>
+        <div class="news flex">
+          <div class="news-content">
+            <p class="news_date">2019/01/01</p>
+            <p class="news_title">
+              ニュースタイトルがここには入ります。3月の決算報告書
+            </p>
+          </div>
+          <div class="news-icon">news</div>
         </div>
-        <div class="news-icon">news</div>
       </div>
-    </div>
       <div class="mission">
         <div class="mission-content">
           <h2 class="mission_title">
@@ -85,9 +87,9 @@
         </p>
         <a href="" class="common-btn contact-btn">お問い合わせへ</a>
       </div>
-  </main>
-  <CommonFooter></CommonFooter>
-</div>
+    </main>
+    <CommonFooter></CommonFooter>
+  </div>
 </template>
 
 <script>
@@ -96,119 +98,177 @@ import CommonFooter from "./components/CommonFooter";
 export default {
   components: {
     CommonHeader,
-    CommonFooter
-  }
+    CommonFooter,
+  },
 };
 </script>
 
 <style>
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-  margin:0;
-  padding:0;
-  border:0;
-  outline:0;
-  font-size:100%;
-  vertical-align:baseline;
-  background:transparent;
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 body {
-  line-height:1;
+  line-height: 1;
 }
 
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-  display:block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 
 nav ul {
-  list-style:none;
+  list-style: none;
 }
 
-blockquote, q {
-  quotes:none;
+blockquote,
+q {
+  quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content:'';
-  content:none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 
 a {
-  margin:0;
-  padding:0;
-  font-size:100%;
-  vertical-align:baseline;
-  background:transparent;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
 }
 
 /* change colours to suit your needs */
 ins {
-  background-color:#ff9;
-  color:#000;
-  text-decoration:none;
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
 }
 
 /* change colours to suit your needs */
 mark {
-  background-color:#ff9;
-  color:#000;
-  font-style:italic;
-  font-weight:bold;
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
 }
 
 del {
   text-decoration: line-through;
 }
 
-abbr[title], dfn[title] {
-  border-bottom:1px dotted;
-  cursor:help;
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
 }
 
 table {
-  border-collapse:collapse;
-  border-spacing:0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 /* change border colour to suit your needs */
 hr {
-  display:block;
-  height:1px;
-  border:0;
-  border-top:1px solid #cccccc;
-  margin:1em 0;
-  padding:0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
-input, select {
-  vertical-align:middle;
+input,
+select {
+  vertical-align: middle;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 html {
   height: 100%;
@@ -291,9 +351,6 @@ body {
   line-height: 1;
 }
 
-/*------------------------*/
-/*         news           */
-/*------------------------*/
 .news {
   position: absolute;
   bottom: 0;
@@ -322,9 +379,6 @@ body {
   color: #fff;
 }
 
-/*------------------------*/
-/*         mission        */
-/*------------------------*/
 .mission {
   position: relative;
   background: #000;
@@ -356,9 +410,6 @@ body {
   z-index: -999;
 }
 
-/*------------------------*/
-/*         service        */
-/*------------------------*/
 .service {
   background: #e5e5e5;
   margin-bottom: 10%;
@@ -402,9 +453,6 @@ body {
   margin: 0 0 0 auto;
 }
 
-/*------------------------*/
-/*        recruit         */
-/*------------------------*/
 .company {
   margin-bottom: 10%;
 }
@@ -436,9 +484,6 @@ body {
   color: #fff;
 }
 
-/*------------------------*/
-/*        faq             */
-/*------------------------*/
 .faq {
   width: 70%;
   background: #000;
@@ -463,9 +508,6 @@ body {
   text-align: center;
 }
 
-/*------------------------*/
-/*        contact         */
-/*------------------------*/
 .contact {
   background: url("./assets/img/contact-bg.jpg") center/cover no-repeat;
   padding: 10%;
@@ -506,5 +548,4 @@ body {
   text-align: center;
   color: #fff;
 }
-
 </style>
