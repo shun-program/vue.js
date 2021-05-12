@@ -322,7 +322,7 @@ body {
 }
 
 #firstview {
-  height: 800px;
+  height: 700px;
   background: url("./assets/img/eyecatch.jpg") no-repeat;
   background-size: cover;
   background-position: center;
@@ -542,10 +542,63 @@ body {
 .top-footer {
   background: #000;
   text-align: center;
+  height: 100px;
 }
 
 .top-footer small {
   text-align: center;
   color: #fff;
+  
+}
+
+@media screen and (max-width: 768px) {
+  
+  .catchcopy {
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  .news {
+    width: 100%;
+  }
+  .mission-content {
+    padding: 10% 0;
+    margin: 0 auto;
+  }
+  .service-content_inner {
+    width: 60%;
+    left: 10%;
+  }
+  .service-img {
+    width: 70%;
+    margin-left: 30%;
+  }
+  .service-img_second {
+    margin: 0 30% 0 0;
+  }
+  .service-content_inner-second {
+    left: 30%;
+  }
+  .service-content {
+    margin: 0 auto;
+  }
+  .service-content_inner {
+    width: 90%;
+    position: inherit;
+    background: rgba(255, 255, 255, 0.8);
+    left: 5%;
+  }
+  .service-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .recruit-company_size {
+    width: 100%;
+  }
+  .faq-title {
+    font-size: 30px;
+  }
 }
 </style>

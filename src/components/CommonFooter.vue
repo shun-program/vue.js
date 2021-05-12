@@ -35,7 +35,7 @@
 .header-nav li {
   display: inline-block;
   margin-right: 35px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .header-nav a {
@@ -51,11 +51,24 @@
     margin: 0;
     width: 100%;
     text-align: center;
-    color: #fff
+    color: #fff;    
   }
 
   nav ul {
   list-style: none;
+}
+
+
+@media screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+  }
+
+  .header-logo {
+    margin: 0;
+    width: 100%;
+    text-align: center;
+  }
 }
 
 
