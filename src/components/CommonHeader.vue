@@ -128,10 +128,12 @@ export default {
     left: 2px;
   }
   .header-logo {
-    margin: 0;
-    width: 100%;
-    text-align: center;
-  }
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 35px;
+  color: #fff;
+  line-height: 70px;
+}
 
    #hamburger.active span:nth-of-type(1) {
     top: 20px;
